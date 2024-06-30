@@ -2,6 +2,27 @@
 
 See the [upgrading to v4](/docs/upgrading-to-v4.md) documentation for a complete list of all API changes in version 4.
 
+### v4.2.1 (2024-06-30)
+
+- Fix compatibility issues with TypeScript v5.5 ([#497](https://github.com/GoogleChrome/web-vitals/pull/497))
+
+### v4.2.0 (2024-06-20)
+
+- Refactor INP attribution code to fix errors on Windows 10 ([#495](https://github.com/GoogleChrome/web-vitals/pull/495))
+
+### v4.1.1 (2024-06-10)
+
+- Fix pending LoAF cleanup logic ([#493](https://github.com/GoogleChrome/web-vitals/pull/493))
+
+### v4.1.0 (2024-06-06)
+
+- Move the support check to the top of the onINP() function ([#490](https://github.com/GoogleChrome/web-vitals/pull/490))
+- Fix missing LoAF attribution when entries are dispatched before event entries ([#487](https://github.com/GoogleChrome/web-vitals/pull/487))
+
+### v4.0.1 (2024-05-21)
+
+- Add the `ReportCallback` type back but deprecate it ([#483](https://github.com/GoogleChrome/web-vitals/pull/483))
+
 ### v4.0.0 (2024-05-13)
 
 - **[BREAKING]** Update types to support more generic usage ([#471](https://github.com/GoogleChrome/web-vitals/pull/471))
